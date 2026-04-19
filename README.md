@@ -23,7 +23,7 @@ We developed this sophisticated database architecture collaboratively. While eve
 
 ---
 
-## 🚀 About The Platform
+##  About The Platform
 
 **FlightDBMS** is a state-of-the-art Database Management wrapper designed to elevate how airports and airlines process raw relational data. Moving away from traditional, clunky database managers, we've deployed a visually stunning, react-powered Command Center that seamlessly connects to a complex, fully-relational MySQL backend. 
 
@@ -31,7 +31,7 @@ The system tracks 12 interconnected operational schemas—ranging from complex `
 
 <br/>
 
-## ✨ Key Features & Technical Highlights
+##  Key Features & Technical Highlights
 
 ### 1. Robust Relational Explorer
 <p align="center">
@@ -55,17 +55,17 @@ For those who prefer total control, the built-in raw developer console permits t
 
 ---
 
-## ⚙️ Advanced DBMS Masterclass Features (Hackathon Focused)
+##  Advanced DBMS Masterclass Features (Hackathon Focused)
 We went far beyond simple CRUD operations to demonstrate absolute database mastery:
-- 🛡️ **ACID Compliant Transactions (Stored Procedures):** We utilize master-level `START TRANSACTION` / `COMMIT` / `ROLLBACK` MySQL endpoints for flight bookings. Purchasing a ticket locks the payload conditionally across `Booking`, `Ticket`, and `Payment` seamlessly. If one fails, the system rolls back to preserve global data integrity.
-- 📡 **Automated Audit Triggers:** An autonomous Database Trigger (`AFTER DELETE`) is attached natively to our SQL payload schemas. It instantly intercepts destruction operations to secretly construct auditable breadcrumbs inside an encrypted `audit_log` table.
-- 🗺️ **Live Seat-Map Matrix Engines:** Advanced relational `JOIN` algorithms correlate available geometry grids from our `Seat` table against confirmed active row queries in our `Ticket` table, locking down spatial nodes on runtime queries in real time.
-- ♿ **Inclusive Accessibility Algorithms:** We integrated a specific flag condition into the Database linking Passenger Disability Requirements with Accessible Seat Nodes. When queries determine a requirement for special assistance, visual checkmarks conditionally map directly to optimized seating via front-end interpretation.
-- 🔐 **Encrypted Role-Based Access Control (RBAC):** Deploying a robust `system_user` schema enforcing polymorphic privileges allowing 'ADMIN' or 'CONTROLLER' permission gates via RESTful API interceptors.
+-  **ACID Compliant Transactions (Stored Procedures):** We utilize master-level `START TRANSACTION` / `COMMIT` / `ROLLBACK` MySQL endpoints for flight bookings. Purchasing a ticket locks the payload conditionally across `Booking`, `Ticket`, and `Payment` seamlessly. If one fails, the system rolls back to preserve global data integrity.
+-  **Automated Audit Triggers:** An autonomous Database Trigger (`AFTER DELETE`) is attached natively to our SQL payload schemas. It instantly intercepts destruction operations to secretly construct auditable breadcrumbs inside an encrypted `audit_log` table.
+-  **Live Seat-Map Matrix Engines:** Advanced relational `JOIN` algorithms correlate available geometry grids from our `Seat` table against confirmed active row queries in our `Ticket` table, locking down spatial nodes on runtime queries in real time.
+-  **Inclusive Accessibility Algorithms:** We integrated a specific flag condition into the Database linking Passenger Disability Requirements with Accessible Seat Nodes. When queries determine a requirement for special assistance, visual checkmarks conditionally map directly to optimized seating via front-end interpretation.
+-  **Encrypted Role-Based Access Control (RBAC):** Deploying a robust `system_user` schema enforcing polymorphic privileges allowing 'ADMIN' or 'CONTROLLER' permission gates via RESTful API interceptors.
 
 ---
 
-## 💻 Tech Stack & Deployment Architecture
+##  Tech Stack & Deployment Architecture
 - **Frontend Layer:** React.js, Vite, TailwindCSS (Dark Glassmorphism Atmospheric UI).
 - **Backend API Engine:** Node.js, Express.js.
 - **Relational Database Engine:** MySQL Engine.
