@@ -15,7 +15,7 @@
 We developed this sophisticated database architecture collaboratively. While everyone worked full-stack to bring IAMS to life, our primary focal areas were:
 
 - **Sai Mohit Kotta** — Website Architecture, Core Logic, UI/UX Engineering & Ideation, AI Query Synthesizer
-- **Trishay Kaul** — Website Development, Entity Relationship, SQL Editor & Ideation, Inclusive of people with disabilities
+- **Trishay Kaul** — Website Development, Entity Relationships, SQL Editor & Ideation, Inclusive of people with disabilities
 - **Ghana Polishetty** — Comprehensive Documentation & Database (SQL Workbench) Design, Tables Visualisation and Authentication
 - **V. Surya Prakash Reddy** — System Documentation & Relational Schema (SQL Workbench) Planning, Database Design
 
